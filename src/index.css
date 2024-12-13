@@ -27,12 +27,12 @@
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url("bg3.jpg");
+  background-image: url("/bg3.jpg");
   background-size: cover;
   background-position: center;
   z-index: -1;
 
-  mask-image: url("ink.gif");
+  mask-image: url("/ink.gif");
   mask-size: cover;
   mask-position: center;
 }
