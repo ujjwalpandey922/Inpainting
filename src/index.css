@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #f5f5f5;
+  --bg-color-darker: #e3e3e3;
+  --bg-color-lighter: #f8f8f8;
+  --bg-color-lightest: #f5f5f5;
+  --bg-color-darkest: #c9c9c9;
+  --text-color: #000000;
+  --text-color-darker: #000000;
+  --text-color-lighter: #000000;
+  --text-color-lightest: #000000;
+  --text-color-darkest: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  position: relative;
+}
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("bg3.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+
+  mask-image: url("ink.gif");
+  mask-size: cover;
+  mask-position: center;
+}
