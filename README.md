@@ -83,6 +83,10 @@ During the development of this project, we encountered several challenges:
 6. Click "Generate Mask" to create the black and white mask
 7. View both original and mask images in the preview section
 
+## Live Site
+
+https://inpainting-omega.vercel.app/
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
